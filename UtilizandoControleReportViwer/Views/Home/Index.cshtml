@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<a id="linkRelatorio">Lista de Produtos</a>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#linkRelatorio").on("click", function () {
+            window.open("Relatorio/Relatorio.aspx", "_blank", "toolbar=no, scrollbars=yes, resizable=yes, width=600, height=600");
+        });
+    });
+</script>
